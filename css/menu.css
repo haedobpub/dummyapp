@@ -1,0 +1,20 @@
+#menu-item {
+	display: flex;
+	align-items: center;
+}
+
+.menu-box-item {
+	position: relative;
+	padding-right: 50px;
+	float: left;
+}
+
+.menu-text {
+	padding-left: 7px;
+}
+
+.be-green {
+	color: green;
+	font-size: 10pt;
+	font-weight: bold;
+}
