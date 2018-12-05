@@ -1,9 +1,9 @@
-@import url("./css/_menu.css");
-@import url("./_grid.css");
-@import url("./_form.css");
-@import url("./_table.css");
-@import url("./_breadcrumb.css");
-@import url("./_help-container.css");
+@import ("_menu.css");
+@import ("_grid.css");
+@import ("_form.css");
+@import ("_table.css");
+@import ("_breadcrumb.css");
+@import ("_help-container.css");
 
 
 body {
