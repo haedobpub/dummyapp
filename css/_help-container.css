@@ -1,0 +1,43 @@
+#help-container {
+	padding-top: 50px;
+/*	padding-left: 200px;
+	padding-right: 200px;*/
+	overflow: hidden;
+}
+
+.help-accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+
+.help-accordion:after {
+    content: "open " "\2193";
+    font-size: 9px;
+    color: green;
+    float: right;
+    margin-left: 5px;
+}
+
+.active, .accordion:hover {
+    background-color: #eee; 
+}
+
+.active:after {
+    content: "close " "\2191"; /* Unicode character for "minus" sign (-) */
+}
+
+.panel {
+    padding: 0 18px;
+    padding-bottom: 15px;
+    display: none;
+    background-color: white;
+    border: 1px solid #eee;
+    overflow: hidden;
+}

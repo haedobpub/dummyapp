@@ -1,0 +1,66 @@
+@import url("_menu.css");
+@import url("_grid.css");
+@import url("_form.css");
+@import url("_table.css");
+@import url("_breadcrumb.css");
+@import url("_help-container.css");
+
+
+body {
+	min-width: 630px;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+.left-div {
+	float: left;
+}
+
+.right-div {
+	margin-left: auto;
+}
+
+.common-green {
+	color: green;
+}
+
+.dark-grey {
+	color: #878787;
+}
+
+.grey-font-small {
+	font-size: 8pt;
+	color: #8f8f8f;
+}
+
+.bold-font-medium {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.vertical-center-align {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start; 
+}
+
+.vertical-center-align-end {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end; 
+}
+
+.span-float-right {
+	float: right;
+}
+
+i.fa-trash-o {
+	visibility: hidden;
+}
+
+.currentTime {
+	color: #878787;
+}

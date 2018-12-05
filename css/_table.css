@@ -1,0 +1,31 @@
+#bikers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#bikers td, #bikers th {
+    padding: 8px;
+}
+
+#bikers tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+
+#bikers tr:hover {
+	cursor: pointer;
+	background-color: #c2d3c3;
+}
+
+#bikers tr:hover i.fa-trash-o {
+	visibility: visible;
+}
+
+#bikers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
